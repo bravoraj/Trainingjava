@@ -14,7 +14,10 @@ public class Student {
         public Student(String studName, int studId, char studGrade) {
         }
 
-        public void setStudId(int studId) {
+    public Student(int i, String kapil, int i1, String nit) {
+    }
+
+    public void setStudId(int studId) {
                 this.studId = studId;
         }
 
