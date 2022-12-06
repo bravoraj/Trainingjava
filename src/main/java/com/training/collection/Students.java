@@ -1,19 +1,25 @@
 package com.training.collection;
 
+import com.sun.scenario.effect.Effect;
+
 public class Students {
 
     private int id;
     private String name;
     private int age;
-    private String collegeName;
+    private String Grade;
 
-    public Students(int id, String name, int age, String collegeName) {
+    public Students(int id, String name, int age, String Grade) {
         this.id = id;
         this.name = name;
         this.age = age;
-        this.collegeName = collegeName;
+        this.Grade = Grade;
     }
 
+    public static Effect stream() {
+
+        return null;
+    }
     public int getId() {
         return id;
     }
@@ -39,11 +45,11 @@ public class Students {
     }
 
     public String getCollegeName() {
-        return collegeName;
+        return Grade;
     }
 
     public void setCollegeName(String collegeName) {
-        this.collegeName = collegeName;
+        this.Grade = Grade;
     }
 
     @Override
@@ -52,7 +58,11 @@ public class Students {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", collegeName='" + collegeName + '\'' +
+                ", collegeName='" + Grade + '\'' +
                 '}';
+    }
+
+    public boolean startsWith(String A) {
+        return false;
     }
 }
