@@ -3,8 +3,8 @@ package training.thread;
 public class ThreadImpl {
     public static void main(String... args) {
        // new ThreadDemo1();
-        new ThreadDemo3("one");
-        new ThreadDemo3("Two");
+        new ThreadDemo3("FIRST");
+        new ThreadDemo3("SECOND");
 
         try {
             for (int i = 1; i < 5; i++) {
