@@ -2,9 +2,9 @@ package training.thread;
 
 public class ThreadImpl {
     public static void main(String... args) {
-       // new ThreadDemo1();
-        new ThreadDemo3("FIRST");
-        new ThreadDemo3("SECOND");
+        // new ThreadDemo1();
+        new Thread("FIRST");
+        new Thread("SECOND");
 
         try {
             for (int i = 1; i < 5; i++) {
@@ -17,4 +17,5 @@ public class ThreadImpl {
             }
         System.out.println("Main Thread exiting....");
         }
+
     }
